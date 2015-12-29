@@ -21,6 +21,7 @@ typedef void(^MuiltipleProxyManagerRefreshDelegateBlock)(void);
 @property (nonatomic, assign) MuiltipleProxyManagerDelegateTargetsType delegateTargetsType;
 
 + (MuiltipleProxyManager *)manager;
+
 -(void)addDelegate:(id)object andRefreshDelegateBlock:(MuiltipleProxyManagerRefreshDelegateBlock)block;
 -(void)removeDelegate:(id)object;
 -(void)removeDelegates:(id)objects;

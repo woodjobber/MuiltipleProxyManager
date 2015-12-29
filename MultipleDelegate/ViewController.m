@@ -60,7 +60,7 @@
     NSDictionary *dic = [NSDictionary dictionaryWithObjectsAndKeys:self,[NSString stringWithFormat:@"%p",self],_be2,[NSString stringWithFormat:@"%p",_be2],nil];
     __block MuiltipleProxyManager *__weak weakS = proxy;
     [weakS addDelegates:dic andRefreshDelegateBlock:^{
-        scrollView.delegate = nil;
+        scrollView.delegate = nil;//必须这样
         scrollView.delegate = (id)proxy;
     }];
 }
