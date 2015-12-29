@@ -13,7 +13,7 @@ step：1，动态方法解析，如果你是动态的实现了这个方法，就
 
 `-(void)addDelegate:(id)object andRefreshDelegateBlock:(MuiltipleProxyManagerRefreshDelegateBlock)block;`增加一个对象到代理集中，如果这个对象，在代理集中存在，或者是`[object isKindOfClass:[value class]]`为真，将会移除代理集中的对象，把这个对象添加进去。始终让代理集中存储最新的对象。
 
-'-(void)addDelegates:(id)objects andRefreshDelegateBlock:(MuiltipleProxyManagerRefreshDelegateBlock)block;'增加一组对象到代理集中，'objects'可以是`NSArray`,`NSMutableArray`,`NSDictionary`,`NSMutableDictionary`,注意，如果是 `字典`，键值 必须是 `id key = [NSString stringWithFormat:@"%p",obj];`
+`-(void)addDelegates:(id)objects andRefreshDelegateBlock:(MuiltipleProxyManagerRefreshDelegateBlock)block;`增加一组对象到代理集中，'objects'可以是`NSArray`,`NSMutableArray`,`NSDictionary`,`NSMutableDictionary`,注意，如果是 `字典`，键值 必须是 `id key = [NSString stringWithFormat:@"%p",obj];`
 
 `-(void)removeDelegate:(id)object;`  从代理集中移除一个object，
 
