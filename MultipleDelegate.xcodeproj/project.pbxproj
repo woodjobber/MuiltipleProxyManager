@@ -10,9 +10,11 @@
 		7C25387D1C30CCCB00C69A89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C25387C1C30CCCB00C69A89 /* main.m */; };
 		7C2538801C30CCCB00C69A89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C25387F1C30CCCB00C69A89 /* AppDelegate.m */; };
 		7C2538831C30CCCB00C69A89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2538821C30CCCB00C69A89 /* ViewController.m */; };
-		7C2538861C30CCCB00C69A89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C2538841C30CCCB00C69A89 /* Main.storyboard */; };
 		7C2538881C30CCCB00C69A89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C2538871C30CCCB00C69A89 /* Assets.xcassets */; };
 		7C25388B1C30CCCB00C69A89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C2538891C30CCCB00C69A89 /* LaunchScreen.storyboard */; };
+		7C2538941C30CEC300C69A89 /* Behavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2538931C30CEC300C69A89 /* Behavior.m */; };
+		7C25389A1C310B0600C69A89 /* Behavior2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2538991C310B0600C69A89 /* Behavior2.m */; };
+		7C25389D1C325E5A00C69A89 /* MuiltipleProxyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C25389C1C325E5A00C69A89 /* MuiltipleProxyManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +24,15 @@
 		7C25387F1C30CCCB00C69A89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7C2538811C30CCCB00C69A89 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7C2538821C30CCCB00C69A89 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7C2538851C30CCCB00C69A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C2538871C30CCCB00C69A89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C25388A1C30CCCB00C69A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C25388C1C30CCCB00C69A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C2538921C30CEC300C69A89 /* Behavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Behavior.h; sourceTree = "<group>"; };
+		7C2538931C30CEC300C69A89 /* Behavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Behavior.m; sourceTree = "<group>"; };
+		7C2538981C310B0600C69A89 /* Behavior2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Behavior2.h; sourceTree = "<group>"; };
+		7C2538991C310B0600C69A89 /* Behavior2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Behavior2.m; sourceTree = "<group>"; };
+		7C25389B1C325E5A00C69A89 /* MuiltipleProxyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuiltipleProxyManager.h; sourceTree = "<group>"; };
+		7C25389C1C325E5A00C69A89 /* MuiltipleProxyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuiltipleProxyManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +65,16 @@
 		7C25387A1C30CCCB00C69A89 /* MultipleDelegate */ = {
 			isa = PBXGroup;
 			children = (
+				7C25389B1C325E5A00C69A89 /* MuiltipleProxyManager.h */,
+				7C25389C1C325E5A00C69A89 /* MuiltipleProxyManager.m */,
 				7C25387E1C30CCCB00C69A89 /* AppDelegate.h */,
 				7C25387F1C30CCCB00C69A89 /* AppDelegate.m */,
 				7C2538811C30CCCB00C69A89 /* ViewController.h */,
 				7C2538821C30CCCB00C69A89 /* ViewController.m */,
-				7C2538841C30CCCB00C69A89 /* Main.storyboard */,
+				7C2538921C30CEC300C69A89 /* Behavior.h */,
+				7C2538931C30CEC300C69A89 /* Behavior.m */,
+				7C2538981C310B0600C69A89 /* Behavior2.h */,
+				7C2538991C310B0600C69A89 /* Behavior2.m */,
 				7C2538871C30CCCB00C69A89 /* Assets.xcassets */,
 				7C2538891C30CCCB00C69A89 /* LaunchScreen.storyboard */,
 				7C25388C1C30CCCB00C69A89 /* Info.plist */,
@@ -138,7 +150,6 @@
 			files = (
 				7C25388B1C30CCCB00C69A89 /* LaunchScreen.storyboard in Resources */,
 				7C2538881C30CCCB00C69A89 /* Assets.xcassets in Resources */,
-				7C2538861C30CCCB00C69A89 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C2538831C30CCCB00C69A89 /* ViewController.m in Sources */,
+				7C2538941C30CEC300C69A89 /* Behavior.m in Sources */,
+				7C25389D1C325E5A00C69A89 /* MuiltipleProxyManager.m in Sources */,
 				7C2538801C30CCCB00C69A89 /* AppDelegate.m in Sources */,
+				7C25389A1C310B0600C69A89 /* Behavior2.m in Sources */,
 				7C25387D1C30CCCB00C69A89 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,14 +172,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7C2538841C30CCCB00C69A89 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7C2538851C30CCCB00C69A89 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7C2538891C30CCCB00C69A89 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -262,8 +268,8 @@
 		7C2538901C30CCCB00C69A89 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MultipleDelegate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.globalroam.www.MultipleDelegate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,8 +279,8 @@
 		7C2538911C30CCCB00C69A89 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MultipleDelegate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.globalroam.www.MultipleDelegate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
