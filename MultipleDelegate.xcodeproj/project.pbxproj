@@ -33,6 +33,7 @@
 		7C2538991C310B0600C69A89 /* Behavior2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Behavior2.m; sourceTree = "<group>"; };
 		7C25389B1C325E5A00C69A89 /* MuiltipleProxyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuiltipleProxyManager.h; sourceTree = "<group>"; };
 		7C25389C1C325E5A00C69A89 /* MuiltipleProxyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuiltipleProxyManager.m; sourceTree = "<group>"; };
+		7C25389E1C32A4A600C69A89 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +66,7 @@
 		7C25387A1C30CCCB00C69A89 /* MultipleDelegate */ = {
 			isa = PBXGroup;
 			children = (
+				7C25389E1C32A4A600C69A89 /* Singleton.h */,
 				7C25389B1C325E5A00C69A89 /* MuiltipleProxyManager.h */,
 				7C25389C1C325E5A00C69A89 /* MuiltipleProxyManager.m */,
 				7C25387E1C30CCCB00C69A89 /* AppDelegate.h */,
@@ -306,6 +308,7 @@
 				7C2538911C30CCCB00C69A89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

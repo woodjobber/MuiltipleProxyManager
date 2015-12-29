@@ -7,6 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Singleton.h"
+
 typedef NS_ENUM(NSUInteger, MuiltipleProxyManagerDelegateTargetsType) {
     MuiltipleProxyManagerDelegateTargetsTypeDefault,//
     MuiltipleProxyManagerDelegateTargetsTypeDictionary,
@@ -20,8 +22,8 @@ typedef void(^MuiltipleProxyManagerRefreshDelegateBlock)(void);
 @property (nonatomic, strong) id delegateTargets;
 @property (nonatomic, assign) MuiltipleProxyManagerDelegateTargetsType delegateTargetsType;
 
-+ (MuiltipleProxyManager *)manager;
 
+AS_SINGLETON(MuiltipleProxyManager);
 -(void)addDelegate:(id)object andRefreshDelegateBlock:(MuiltipleProxyManagerRefreshDelegateBlock)block;
 -(void)removeDelegate:(id)object;
 -(void)removeDelegates:(id)objects;

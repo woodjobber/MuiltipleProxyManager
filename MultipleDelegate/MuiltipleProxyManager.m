@@ -14,15 +14,9 @@
 @end
 
 @implementation MuiltipleProxyManager
-
+DEF_SINGLETON(MuiltipleProxyManager);
 static MuiltipleProxyManager *instance = nil;
-+(MuiltipleProxyManager *)manager{
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        instance = [[self alloc]init];
-    });
-    return instance;
-}
+
 -(instancetype)init{
     if (self =[super init]) {
         _delegateTargetsType = MuiltipleProxyManagerDelegateTargetsTypeDefault;

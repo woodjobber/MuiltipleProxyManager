@@ -58,10 +58,10 @@
 - (void)add:(id)sender{
     _be2 = [[Behavior2 alloc]init];
     NSDictionary *dic = [NSDictionary dictionaryWithObjectsAndKeys:self,[NSString stringWithFormat:@"%p",self],_be2,[NSString stringWithFormat:@"%p",_be2],nil];
-    __block MuiltipleProxyManager *__weak weakS = proxy;
-    [weakS addDelegates:dic andRefreshDelegateBlock:^{
-        scrollView.delegate = nil;//必须这样
-        scrollView.delegate = (id)proxy;
+     __block MuiltipleProxyManager *__weak weakProxy = proxy;
+    [weakProxy addDelegates:dic andRefreshDelegateBlock:^{
+        scrollView.delegate = nil;//必须这样，不知道原因,否者有bugs
+        scrollView.delegate = (id)weakProxy;
     }];
 }
 - (void)didReceiveMemoryWarning {
