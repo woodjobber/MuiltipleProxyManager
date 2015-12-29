@@ -7,7 +7,7 @@
 step：1，动态方法解析，如果你是动态的实现了这个方法，就不会去执行下面的步骤即2，否则，执行步骤2；2，消息转发，又要分两小步；具体见图片，
 ![image](https://github.com/woodjobber/MuiltipleProxyManager/blob/master/消息转发.png)
 
-###怎样使用'MuiltipleProxyManager'中的方法
+###怎样使用`MuiltipleProxyManager`中的方法
 
 `+ (MuiltipleProxyManager *)manager` 是一个单例对象，
 
