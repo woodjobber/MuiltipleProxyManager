@@ -9,7 +9,7 @@ step：1，动态方法解析，如果你是动态的实现了这个方法，就
 
 ###怎样使用`MuiltipleProxyManager`中的方法
 
-`+ (MuiltipleProxyManager *)manager` 是一个单例对象；
+`AS_SINGLETON(MuiltipleProxyManager);` 是产生一个单例对象；
 
 `-(void)addDelegate:(id)object andRefreshDelegateBlock:(MuiltipleProxyManagerRefreshDelegateBlock)block;`增加一个对象到代理集中，如果这个对象，在代理集中存在，或者是`[object isKindOfClass:[value class]]`为真，将会移除代理集中的对象，把这个对象添加进去。始终让代理集中存储最新的对象；
 
