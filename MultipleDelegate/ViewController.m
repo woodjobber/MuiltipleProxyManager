@@ -31,7 +31,7 @@
     scrollView =[[UIScrollView alloc]initWithFrame:self.view.frame];
     scrollView.contentSize = CGSizeMake(self.view.bounds.size.width, self.view.bounds.size.height *2);
     [self.view addSubview:scrollView];
-    proxy = [MuiltipleProxyManager manager];
+    proxy = [MuiltipleProxyManager sharedInstance];
     be = [[Behavior alloc]init];
     scrollView.delegate = (id)proxy;
 
