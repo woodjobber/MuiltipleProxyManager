@@ -24,7 +24,7 @@ step：1，动态方法解析，如果你是动态的实现了这个方法，就
 默认的存储方式是`MuiltipleProxyManagerDelegateTargetsTypeArray`,如果要改变存储方式，可以通过设置属性`delegateTargetsType`.
 注意，在向集合中添加对象时，需要更新代理，拿本例说明,
 
-   __block MuiltipleProxyManager *__weak weakProxy = proxy;
+  ` __block MuiltipleProxyManager *__weak weakProxy = proxy;`
 
     [weakProxy addDelegates:dic andRefreshDelegateBlock:^{
         scrollView.delegate = nil;//必须这样，不知道原因,否者有bugs
