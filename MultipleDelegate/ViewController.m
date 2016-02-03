@@ -10,6 +10,8 @@
 #import "Behavior.h"
 #import "MuiltipleProxyManager.h"
 #import "Behavior2.h"
+#import "ClassA.h"
+
 @interface ViewController ()<UIScrollViewDelegate>
 {
     UIScrollView *scrollView;
@@ -49,6 +51,9 @@
     [button1 addTarget:self action:@selector(remove:) forControlEvents:UIControlEventTouchUpInside];
     button1.frame = CGRectMake(30, 300, 40, 40);
     [self.view addSubview:button1];
+    
+    ClassA * a=[ClassA new];
+    a.aaa(YES).bbb(@"hello world!").ccc(@"Objective - C").ddd(YES);
 }
 
 - (void)remove:(id)sender{

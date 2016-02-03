@@ -15,6 +15,7 @@
 		7C2538941C30CEC300C69A89 /* Behavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2538931C30CEC300C69A89 /* Behavior.m */; };
 		7C25389A1C310B0600C69A89 /* Behavior2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2538991C310B0600C69A89 /* Behavior2.m */; };
 		7C25389D1C325E5A00C69A89 /* MuiltipleProxyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C25389C1C325E5A00C69A89 /* MuiltipleProxyManager.m */; };
+		7C8F7AF31C488B56004754ED /* ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8F7AF21C488B56004754ED /* ClassA.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		7C25389B1C325E5A00C69A89 /* MuiltipleProxyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuiltipleProxyManager.h; sourceTree = "<group>"; };
 		7C25389C1C325E5A00C69A89 /* MuiltipleProxyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuiltipleProxyManager.m; sourceTree = "<group>"; };
 		7C25389E1C32A4A600C69A89 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		7C8F7AF11C488B56004754ED /* ClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassA.h; sourceTree = "<group>"; };
+		7C8F7AF21C488B56004754ED /* ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassA.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 				7C25387F1C30CCCB00C69A89 /* AppDelegate.m */,
 				7C2538811C30CCCB00C69A89 /* ViewController.h */,
 				7C2538821C30CCCB00C69A89 /* ViewController.m */,
+				7C8F7AF11C488B56004754ED /* ClassA.h */,
+				7C8F7AF21C488B56004754ED /* ClassA.m */,
 				7C2538921C30CEC300C69A89 /* Behavior.h */,
 				7C2538931C30CEC300C69A89 /* Behavior.m */,
 				7C2538981C310B0600C69A89 /* Behavior2.h */,
@@ -167,6 +172,7 @@
 				7C25389D1C325E5A00C69A89 /* MuiltipleProxyManager.m in Sources */,
 				7C2538801C30CCCB00C69A89 /* AppDelegate.m in Sources */,
 				7C25389A1C310B0600C69A89 /* Behavior2.m in Sources */,
+				7C8F7AF31C488B56004754ED /* ClassA.m in Sources */,
 				7C25387D1C30CCCB00C69A89 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
