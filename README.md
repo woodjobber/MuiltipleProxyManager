@@ -33,3 +33,5 @@ step：1，动态方法解析，如果你是动态的实现了这个方法，就
 ## 总结
 
 如果有什么错误，请联系作者 woodjobber@outlook.com
+
+Blog [http://woodjobber.github.io/](http://woodjobber.github.io/)
